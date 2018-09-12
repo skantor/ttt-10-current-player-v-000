@@ -9,8 +9,8 @@ def turn_count(board)
   end
 end
 
-def current_player(board)
-  turn = turn_count(board)
+def current_player(myarray)
+  turn = turn_count(myarray)
   if turn % 2 == 0
     "X"
   else
